@@ -149,5 +149,33 @@ ul, li {
 }
 /* секція_1 */
 .section1 {
-    height: 660px;
+    background: url(image/fon_sect1.png) no-repeat center top / cover;
+    height: 782px;
+}
+.sect1_content {
+    color: white;
+    text-align: center;
+}
+.sect1_web {
+    font-size: 86px;
+    padding-top: 322px;
+}
+.sect1_text {
+    font-size: 32px;
+}
+.sect1_bloc {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+.bloc1 {
+    border: 2px solid white;
+    padding: 1%;
+    margin-right: 40px;
+}
+.bloc2 {
+    border: 1px solid white;
+    padding: 1%;
+    margin-left: 20px;
 }
