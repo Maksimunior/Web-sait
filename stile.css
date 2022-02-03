@@ -147,3 +147,7 @@ ul, li {
         display: flex;
     }
 }
+/* секція_1 */
+.section1 {
+    height: 660px;
+}
