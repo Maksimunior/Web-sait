@@ -161,7 +161,8 @@ ul, li {
     text-align: center;
 }
 .sect1_web {
-    font-size: 86px;
+    /* font-size: 86px; */
+    font-size: 420%;
     padding-top: 322px;
 }
 .sect1_text {
@@ -207,7 +208,7 @@ ul, li {
 }
 .about_text {
     margin-left: 30%;
-    margin-right: 20%;
+    margin-right: 30%;
     /* border: 1px solid green; */
     max-width: 630px;
     margin-top: 35px;
@@ -228,4 +229,9 @@ ul, li {
 }
 .about_bl_txt {
     margin-top: 25px;
+}
+/* section3 */
+.section3 {
+    height: 1415px;
+    background-color: #e4fdf9;
 }
