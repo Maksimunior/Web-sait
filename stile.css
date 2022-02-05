@@ -8,7 +8,7 @@
 }
 header {
     position:fixed;
-    background-color: rgb(64, 61, 61);
+    background-color: white;
     width: 100%;
     opacity: 0.9;
 }
@@ -36,7 +36,7 @@ a {
     font-family: 'Times New Roman';
 }
 .menu_ru {
-    font-size: 16px;
+    font-size: 20px;
     white-space: nowrap;
     margin: 10px;
 }
@@ -109,6 +109,7 @@ a {
 }
 ul, li {
     display: block;
+    cursor: pointer;
 }
 #chec_menu:checked ~ .menus{
     max-height: 500px;
@@ -150,7 +151,7 @@ ul, li {
 /* секція_1 */
 .section1 {
     background: url(image/fon_sect1.png) no-repeat center top / cover;
-    height: 782px;
+    height: 862px;
 }
 .sect1_content {
     color: white;
@@ -170,12 +171,22 @@ ul, li {
     margin-top: 110px;
 }
 .bloc1 {
+    cursor: pointer;
     border: 2px solid white;
     padding: 1%;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 .bloc2 {
+    cursor: pointer;
     border: 1px solid white;
     padding: 1%;
     margin-left: 20px;
+}
+.sect1_buton {
+    cursor: pointer;
+    margin-top: 115px;
+}
+.bloc1:hover, .bloc2:hover {
+    border: 1px solid #00897b;
+    background-color: #00897b;
 }
