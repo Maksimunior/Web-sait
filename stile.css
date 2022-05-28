@@ -154,7 +154,7 @@ ul, li {
 /* секція_1 */
 .section1 {
     background: url(image/fon_sect1.png) no-repeat center top / cover;
-    height: 862px;
+    min-height: 862px;
 }
 .sect1_content {
     color: white;
@@ -199,7 +199,7 @@ ul, li {
 /* section2 */
 .section2 {
     background-color: #fff;
-    height: 675px;
+    min-height: 675px;
     text-align: center;
     justify-content: center;
 }
@@ -214,15 +214,14 @@ ul, li {
     margin-top: 35px;
 }
 .about_bloc {
+    gap: 30px;
     margin-top: 130px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .about_bl {
-    text-align: center;
-    justify-content: center;
-    /* border: 1px solid green; */
-    margin-left: 14%;
-    width: 15%;
+    width: 260px;
 }
 .about_bl_title {
     margin-top: 40px;
@@ -232,6 +231,12 @@ ul, li {
 }
 /* section3 */
 .section3 {
-    height: 1415px;
+    min-height: 1415px;
     background-color: #e4fdf9;
+    text-align: center;
+    justify-content: center;
+}
+.servis_title {
+    padding-top: 175px;
+    /* margin-top: 175px; */
 }
