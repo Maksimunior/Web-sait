@@ -231,7 +231,7 @@ ul, li {
 }
 /* section3 */
 .section3 {
-    min-height: 1415px;
+    min-height: 1450px;
     background-color: #e4fdf9;
     text-align: center;
     justify-content: center;
@@ -256,7 +256,15 @@ ul, li {
     margin-bottom: 20px;
     margin-left: 115px;
     margin-right: 115px;
+    margin-bottom: 125px;
     /* border: 1px solid black; */
+}
+.servis_img {
+    background-image: url("./image/smart_blec.png");
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    width: 62px;
+    height: 62px;
 }
 .servis_research {
     height: 328px;
@@ -289,10 +297,16 @@ margin-bottom: 50px;
 .servis_research:hover {
     background: #00897b;
     color: white;
-    
     border: 2px solid white;
+    transition: all 1s;
 }
-.servis_btn:hover {
+.servis_research:hover .servis_btn{
     border: 2px solid white;
-
+    transition: all 1s;
+}
+.servis_research:hover .servis_img {
+    background-image: url(./image/smar_widh.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    transition: all 1s;
 }
