@@ -310,7 +310,7 @@ margin-bottom: 50px;
     transition: all 0.5s;
 }
 .section4 {
-    min-height: 1450px;
+    min-height: 3850px;
     background-color: #ffffff;
     text-align: center;
     justify-content: center;
@@ -371,4 +371,66 @@ margin-bottom: 50px;
     font-size: 20px;
     margin-bottom: 135px;
 } 
-
+.Ricing_plan{
+    background: #f0f1f1;
+}
+.Ric_h1 {
+    padding-top: 125px;
+}
+.Ric_text {
+    margin-left: 30%;
+    margin-right: 30%;
+    max-width: 630px;
+    margin-top: 45px;
+    margin-bottom: 125px;
+}
+.Ric_osn_bloc {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+.Ric_bloc {
+    margin-bottom: 125px;
+    background-image: url(./image/Ric_image.png);
+    background-repeat: no-repeat;
+    width: 370px;
+    border: 1px solid black;
+}
+.Ric_bloc_h1 {
+    font-weight: 400;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+.Ric_bloc_txt1 {
+    margin-bottom: 110px;
+    font-size: 26px;
+    color: #fff;
+}
+hr {
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 170px;
+}
+.Ric_bloc_button {
+    width: 180px;
+    height: 60px;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.sub {
+    font-weight: 400;
+    font-size: 16px;
+}
+.Ric_bloc_button:hover {
+    background-color: #00897b;
+    color: #fff;
+    transition: all 0.5s;
+    border-color: #00897b;
+}
