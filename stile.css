@@ -202,6 +202,8 @@ ul, li {
     min-height: 675px;
     text-align: center;
     justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 .about_title {
     margin-top: 125px;
