@@ -434,6 +434,16 @@ hr {
     transition: all 0.5s;
     border-color: #00897b;
 }
+.Team_h1 {
+    margin-top: 125px;
+    margin-bottom: 40px;
+}
+.Team_text {
+    margin-left: 30%;
+    margin-right: 30%;
+    max-width: 630px;
+    margin-bottom: 110px;
+}
 /* Slaider */
 .slaider {
     width: 1155px;
