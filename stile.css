@@ -633,3 +633,70 @@ input[name="r"] {
     border-color: #00897b;
     cursor: pointer;
 }
+.section6 {
+    background: url(./image/contact_fon.png) no-repeat center top / cover;
+    color: #fff;
+    text-align: center;
+}
+.cont_title {
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+.cont_text {
+    margin-left: 30%;
+    margin-right: 30%;
+    max-width: 630px;
+    margin-bottom: 100px;
+}
+.cont_bloc_ico {
+    justify-content: center;
+    display: flex;
+}
+.bloc_ico1 {
+    width: 250px;
+    margin-bottom: 80px;
+}
+.cont_texts {
+    margin-top: 35px;
+}
+.cont_bloc {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-rows: auto;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 130px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 35px;
+}
+.cuunt_bl_1 {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;	
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.cuunt_bl_2 {
+
+    width: 100%;
+    height: 320px;
+    object-fit: cover;	
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.ico_3 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 5;
+}
+.cont_submit {
+    width: 215px;
+    height: 70px;
+    margin-bottom: 100px;
+    margin-left: 1000px;
+    font-size: 20px;
+    border-radius: 15px;
+}
