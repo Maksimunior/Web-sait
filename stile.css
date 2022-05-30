@@ -256,7 +256,6 @@ ul, li {
     margin-left: 115px;
     margin-right: 115px;
     margin-bottom: 125px;
-    /* border: 1px solid black; */
 }
 .servis_img {
     background-image: url("./image/smart_blec.png");
@@ -268,7 +267,6 @@ ul, li {
 .servis_research {
     height: 328px;
     background: white;
-    /* border: 1px solid black; */
     padding-top: 60px;
     padding-bottom: 50px;
     padding-left: 40px;
@@ -310,7 +308,7 @@ margin-bottom: 50px;
     transition: all 0.5s;
 }
 .section4 {
-    min-height: 3850px;
+    min-height: 3700px;
     background-color: #ffffff;
     text-align: center;
     justify-content: center;
@@ -449,7 +447,6 @@ hr {
     width: 1155px;
     height: 600px;
     overflow: hidden;
-    border: 1px solid green;
 }
 .slaid_img1 {
     margin-bottom: 35px;
